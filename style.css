@@ -1,0 +1,86 @@
+body
+{
+    background: lightgoldenrodyellow;
+}
+
+h1
+{
+    padding-left: 550px;
+    color: rebeccapurple;
+    background-color:plum;
+    border-style: double;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+.header
+{
+    border: dotted;
+    border-color:rgb(0, 132, 209);
+    font-family:cursive;
+    background:pink;
+}
+
+.instructions
+{
+    border: dotted;
+    border-color:rgb(0, 132, 209);
+    color:crimson;
+    font-family: monospace;
+    font-family: fantasy;
+    background:lightcyan;
+    display: flex;
+    justify-content: center;
+}
+
+.body
+{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border: dotted;
+    border-color:rgb(0, 132, 209);
+    font-family:cursive;
+    color:black;
+    background:lightcyan;
+}
+
+a:link
+{ 
+    color: darkblue; 
+} 
+
+a:visited
+{ 
+    color: purple; 
+}
+
+.designs
+{
+    border:solid;
+    border-color:lightcoral;
+    position: relative;
+}
+
+.designs p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.designs:hover
+{
+    transform: scale(1.2);
+}
+
+.designs:hover p
+{
+ opacity: 1;
+}
+
+.designs:hover img
+{
+ opacity: 0.20;
+}

@@ -1,0 +1,64 @@
+body
+{
+    background: lightgoldenrodyellow;
+}
+
+h1
+{
+    padding-left: 550px;
+    color: rebeccapurple;
+    background-color:plum;
+    border-style: double;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+.header
+{
+    border: dotted;
+    border-color:rgb(0, 132, 209);
+    font-family:cursive;
+    background:pink;
+}
+
+.medialinks
+{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border: dotted;
+    border-color:rgb(0, 132, 209);
+    font-family:cursive;
+    color:black;
+    background:lightcyan;
+}
+
+.media
+{
+    border:solid;
+    border-color:cyan;
+    position: relative;
+}
+
+.media p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.media:hover
+{
+    transform: scale(1.2);
+}
+
+.media:hover p
+{
+ opacity: 1;
+}
+
+.media:hover img
+{
+ opacity: 0.20;
+}

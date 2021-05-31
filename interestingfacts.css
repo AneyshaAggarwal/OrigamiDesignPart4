@@ -1,0 +1,32 @@
+body
+{
+    background: lightgoldenrodyellow;
+}
+
+h1
+{
+    padding-left: 550px;
+    color: rebeccapurple;
+    background-color:plum;
+    border-style: double;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+.header
+{
+    border: dotted;
+    border-color:rgb(0, 132, 209);
+    font-family:cursive;
+    background:pink;
+}
+
+.facts
+{
+    border: dotted;
+    border-color:rgb(0, 132, 209);
+    font-family:inherit;
+    color:black;
+    background:lightcyan;
+    font-size: large;
+}
